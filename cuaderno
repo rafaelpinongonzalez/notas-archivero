@@ -1,0 +1,80 @@
+NOTA para hacer o meterle estilos a una imagen que es tamano,moverlos, 
+clores en mi pagina tube que nombrar un estilo por ejemplo en inicio 
+en un div lo nombre a mi gusto le puse  <div className="contenedor">
+adentro de este div tienes que meter todo lo que quieras que se mueva 
+cuand o lo nombres en estilos lo importes.
+ tienes que importarlo en main.scss ejepmo asi lo hice
+ >>>>>>@import "./contenedor.scss";
+ despues de importarlo tines que hacer un archivo en estilos y nombrarlo 
+ como lo nombraste en el div para que lo puedar encontrar y hacer las 
+ modificaciones al artchivo le puse asi contenedor.scss y dentro de este 
+ se le hacen las modificaciones 
+ EJEMPLO>>>>>>.contenedor {
+    background:#eff306;
+    width: 50;
+    max-width: 800px;
+    height: 600px;
+    text-align: center;
+    
+}
+
+.imagen {
+    width: 800px;
+    margin: 50px;
+    
+}
+
+
+nicia sesión en YouTube Studio.
+En la parte superior derecha, selecciona el icono de subida .
+Selecciona Subir vídeo (versión beta).
+Selecciona el archivo que quieras subir.
+
+
+
+
+
+
+
+<inicio exact to="/" activeClassName="contenedor-inicio">
+            INICIO
+          </inicio>
+
+          <!doctype html>
+          index.html
+<html>
+<head>
+  <link rel="icon" type="image/png" href="/imagenes/favicon.png" />
+ { <meta charset="utf-8">
+"utf-8"> este codigo es el lenguaje que queremos usar al quererlo hacerlo em espanol 
+se tiene que caMBIAR OJO }
+
+  {<meta name="viewport" content="width=device-width, initial-scale=1">
+  este es [ara que funcione en todas las pantallas ya sea en la computadora,en cel, o en una tablet.]}
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  
+  {<title>CONSTRUMAT</title>
+  Este es para ponerle el nombre a tu navegador a la pestanita de arriva.
+  }
+</head>
+<body>
+  <div class="app-wrapper" style="
+  background-color: #2d2d2d;">
+</div>
+<div className="video">
+  <video src="./assets/images/videoconstrumat.mp4" autoplay loop muted>
+  </video>
+  </div>
+</body>
+
+</html>
+
+
+
+live server esta aplicacion es de mismo visual studio se instala para que no tengas que dar refrech o refrescar a cada rato 
+automaticamente al guardar en visual studio 
+
+
+

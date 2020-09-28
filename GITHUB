@@ -1,0 +1,39 @@
+PAGINA-github.com/rafaelpinongonzalez/flexbox/tree/master/imagen
+
+GITHUB: Es una pagina un herramienta de trebajo indespensable para crear paginas se encarga de guardar
+el proceso de codigo que se lleva de avance ademas se puede compartir codigo con los demas companeros.
+OJO: esto se tiene que hacer inmediatamente que vas a trabajar en una pagina no ay excepcion alguna.
+
+ANTES DE INICIAR A GUARDAR LA INFORMACION A TU GITHUB AY QUE AGREGAR UNA CARPETA QUE SE LLAMA gitignore 
+ESTO ES PARA QUE OCULTE INFORMACION O QUE IGNORE INFORMACION Y AVITAR QUE PIRATAS NOS ROBEN LA APLICACION
+ESTO ES MUY IMPORTANTE ADEMAS AY QUE METER LA INFORMACION QUE ESTA DENTRO DE LA CARPETA DE gitignore.
+
+
+                       CODIGOS PARA GUARDAR REPOSITORIOS DESDE TU CONSOLA A GITHUB
+                       en este link nos ensena como ustar git sus pasos y demas 
+                       https://mx.devcamp.com/pt-full-stack-development-javascript-python-react/guide/how-to-organize-course-files-create-github-repository
+               git init =
+               indica que vas a iniciar a meter codigo a tu git 
+               OJO-luego de meter este codigo tienes que ingresar a tu aplicacion de github el cual 
+               te indica que tienes que nombrar tu repositorio ya cuando haces todo el proceso en github
+               tienes que regresar a tu consola para seguir metiendo los demas codigos de git en tu consola.
+              
+                git status =
+                como lo dice el nombre es el estado de tu pagina al momento de poner este codigo te arroja
+                tu consola que es lo que  se va aguardar o si ay herrores, si todo esta bien y es lo que
+                 quieres guardar sigue este codigo.
+                
+                 git add . = por igual como dice la palabra anadir todo guardar todo los que nos arojo 
+                 git status.
+
+                 git commit -m "nombre de informacion"
+                 este es el comitido significa que agregues el nombre de la informacion que vas a guardar0
+                 en tu github recomiendo que agreguen el nmbre en relacon a la informacion es tu desicion.
+
+                 git push = o git push origin master =
+                 cualesquiera de estos dos son para lo mismo con este codigo sirve para finalisar el proceso
+                 y empuja la informacion a tu github.
+
+
+
+

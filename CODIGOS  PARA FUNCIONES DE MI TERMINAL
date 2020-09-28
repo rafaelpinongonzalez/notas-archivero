@@ -1,0 +1,52 @@
+PARA CREAR ESTA PAGINA ay que instalar este paquete => -g create-react-app Y LUEGO PONER NPM INSTALL
+
+npm start = inicia el servidor de desarrollo
+
+npm run build = Agrupa el servidor de desarrollo.
+
+npm test = starts the test runner. comienza el corredor de prueba.
+
+npm run eject = elimina esta herramienta y copia las dependencias 
+de compilación, los archivos de configuración y los scripts en el directorio de la aplicación. si no puedes volver.
+we suggest that you begin by typing
+
+cd Desktop con esyte codigo entras a escritorio con cd  se pone cd 
+el nombre del directorio que ocupas 
+
+
+dir Desktop  con este codigo entras a todos los arrvhivos que tienes 
+guardados en escritorio
+
+cd .. con cd esto te funciona para regresarte al directorio que ocupas 
+
+codigos para aplica en la tyerminal 
+
+como crear un nuevo folder react en la terminal 
+cd desktop
+js-generate 
+sale la opcion de skelet-
+tenemos que poner el nombre del proyecto 
+npm install
+                  TUTORIAL
+pwd =este nos sirve para saber en donde etasmos ubicado di en desktop o documentos eject
+
+mkdir nombre del documento = aqui se pones este codigo y el nombre dek documento para agarrar
+el archivo que se ocupa 
+
+ls = si ponemos este comndo nos arroja todos los documnetos de existencia segun en donde 
+este ubicado ya sea desktop etc.
+
+cd y nombre del archivo =para poner entrar al documento p archivo que deses 
+
+ls = en este caso si agregas ls te ensena todos los documentos que tiene la carpeta en donde 
+estas dentro
+
+
+nano y nombre de archivo = esto es para generar un archivo le das enter y saltrta 
+una cuadro es un editor y pones lo que tu quieras para guardar le pones control o es o no cero 
+
+cat y nombre del archivo = esto es para saber el contenido que cuenta el documento que nombremos 
+
+cp nombre del archivo /User/MrRobot/Desktop = le das enter esto es para mober el archivo estaba en 
+users y lo mobimmos a desktop
+ 

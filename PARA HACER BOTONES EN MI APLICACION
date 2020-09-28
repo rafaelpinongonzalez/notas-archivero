@@ -1,0 +1,71 @@
+PARA HACER BOTONES
+
+*para hacer botones se tiene que hacer una carpeta dentro de SRC se le
+puede llamar paginas  y dentro de la carpeta pagina ay que hacer archivos,
+el nombre de cada archivo ay que nombrarlo a como quieras que se llame 
+el boton se le pone el nombre y se le agrega .js ejemplo (contacto.js)
+
+*se tiene que importar cada uno de los botones al archivo 
+                      app.js
+      ejemplo=> import Inicio from "./paginas/inicio";
+                import Contenido from "./paginas/contenido";
+                import Contacto from "./paginas/contacto";
+*aparte de importar al app.js se tiene que agregar adentro
+de switch en la ruta que es Route en ingles.
+
+ejemplo=>   <Switch>
+              <Route exact path="/" component={Inicio} />
+              <Route path="/contenido" component={Contenido} /> 
+              <Route path="/contacto" component={Contacto} />
+              <Route path="/blog" component={blog} />
+              <Route component={NoMatch} />
+
+            </Switch>
+*Cada uno de los botones se tienen que agregar en el archivo 
+navigation-container.js
+
+EJEMPLO=>return (
+    <div className="nav-wrapper">
+      <div className="left-side">
+        <div className="nav-link-wrapper">
+          <NavLink exact to="/" activeClassName="nav-link-active">
+            INICIO
+          </NavLink>
+        </div>
+
+        <div className="nav-link-wrapper">
+          <NavLink to="/contenido" activeClassName="nav-link-active">
+            Contenido
+          </NavLink>
+        </div>
+
+        <div className="nav-link-wrapper">
+          <NavLink to="/contacto" activeClassName="nav-link-active">
+            Contacto
+          </NavLink>
+        </div>
+
+        <div className="nav-link-wrapper">
+          <NavLink to="/blog" activeClassName="nav-link-active">
+            Blog
+          </NavLink>
+        </div>
+
+        {props.loggedInStatus === "LOGGED_IN" ? (
+          dynamicLink("/portfolio-manager", "Portfolio Manager")
+        ) : null}
+      </div>
+
+      <div className="right-side">
+        CONSTRUMAT
+        {props.loggedInStatus === "LOGGED_IN" ? (
+          <a onClick={handleSignOut}>
+            <FontAwesomeIcon icon="sign-out-alt" />
+          </a>
+        ) : null}
+      </div>
+    </div>
+  );
+};
+
+export default withRouter(NavigationComponent);

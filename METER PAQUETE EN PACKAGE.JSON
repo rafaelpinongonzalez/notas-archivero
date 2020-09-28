@@ -1,0 +1,16 @@
+*Para meter un paquete en este archivo se tiene que ingresar directamente 
+desde tu terminal.
+
+*para poder poner iconos en tu aplicacon se tiene que ingresar un
+paquete en package-json.
+OJO ES ESTE => npm i --save @fortawesome/fontawesome-svg-core  @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
+se ingresa en tu terminal i se pene npm install.
+
+*para qye este funcione se tiene que ingresar en el archivo vavigation-container.js
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+y para que este funcione se agrega en el archivo app.js para importarse y funcione
+import NavigationContainer from "./
+navigation/navigation-container";
+
+ *para buscar un paquete para instalar en tu terninal.
+ EJEMPLO=>font awesome-svg-core react

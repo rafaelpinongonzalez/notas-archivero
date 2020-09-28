@@ -1,0 +1,71 @@
+{<a href="https://www.meteored.mx/colonia-le-baron/por-hora">ver clima</a>
+      adentro de las comillas("se pone el link al que quieres que valla tu pagina") >adentro de las flechitas
+      se pone el nombre o la funcion de lo que quieres que diga tu pagina por ejemplo al de arriva pusimos el linkdel clima 
+      y de nombre del boton le pusimos clima.
+
+      y al de abajo le pusimos el link de la pagina de facebook y de nombre de boton le pusimos facebook de la pagina
+<a href="https://www.facebook.com/rafael.pinongonzalez">fecebook de pagina</a>}
+
+Este codigo que vamos a poner es para agregar una imagen a tu pagina primeramente lo tenemos que 
+importar en el archivo en este caso es en inicio.js aqui este el ejemplo de como lo importe y agregue la ruta de 
+la imagen. 
+import Login from '../paginas/imagenes/Login.png'
+
+este es el codigo que se agregatr 
+====>>>><img src={Login} alt="post.id"/> abajo le voy a poner en que parte lo agregue 
+                     //
+                    export default function() {
+  return (
+    <div>
+      <h1>Este es mi inicio</h1>
+      OJO ESTE ES EL CODIGO <img src={Login} alt="post.id"/> OJO 
+      <a href="https://www.meteored.mx/colonia-le-baron/por-hora">ver clima</a>
+      <a href="https://www.facebook.com/rafael.pinongonzalez">fecebook de pagina</a>
+    </div>
+  );
+}
+
+ESTE ES EL CODIGO PARA PONER IMAGEN EN LA PESTANA DE TU PAGINA 
+href="/imágenes/mifavicon.png" /> en esta parte del codigo se pone la ruta 
+en donde esta ubicada tu image y el nombre de tu foto.
+                   CODIGO   
+<link rel="icon" type="image/png" href="/imágenes/mifavicon.png" />
+
+
+https://ricardogeek.com/como-reproducir-un-video-usando-reactjs/
+
+
+
+CODIGOS PARA PODER REPRODUCIR VIDEOS EN MI PAGINA
+primero deves instalar este codigo en tu terminal
+npm install react-player --save
+despiues que lo instalemos ay que poner este codigo en tu archivo js
+render() {
+    return (
+      <div>
+        <ReactPlayer
+          url='https://www.youtube.com/watch?v=rnwlWn603g4'
+          className='react-player'
+          playing
+          width='100%'
+          height='100%'
+        />
+      </div>
+    );
+  }
+}
+
+blank=_blank», que se aplica sobre un ancla y permite que el destino
+ de ese enlace se abra en otra ventana o pestaña diferente del navegador.
+ EJEMPLO=<a href="https://devcamp.com/" target="_blank"></a>
+
+
+
+
+
+
+
+
+
+
+
